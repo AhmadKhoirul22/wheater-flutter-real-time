@@ -1,7 +1,8 @@
 import 'package:weather/services/location.dart';
 import 'package:weather/services/networking.dart';
 
-const apiKey = 'df55f7b31d6c4f203e9fb724fd9af49c';
+const apiKey = '';
+// isi dengan api key anda!
 
 class WeatherModel {
   Future<dynamic> getCityWeather(String cityName) async {
